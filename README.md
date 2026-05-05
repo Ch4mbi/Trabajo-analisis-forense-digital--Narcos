@@ -7,91 +7,91 @@ Proyecto realizado en el margen de fechas: 19/09/2024 - 23/01/2025
 
 Contenido
 
-[Análisis Forense y respuesta ante incidentes](##-análisis-forense-y-respuesta-ante-incidentes)
+Análisis Forense y respuesta ante incidentes
 
-[Fases de proceso de análisis forense](###-fases-de-proceso-de-análisis-forense)
+Fases de proceso de análisis forense
 
-[Análisis Forense Digital](###-análisis-forense-digital)
+Análisis Forense Digital
 
-[Ventajas y desventajas](####-ventajas-y-desventajas)
+Ventajas y desventajas
 
-[Directrices de las fuerzas de seguridad](###-directrices-de-las-fuerzas-de-seguridad)
+Directrices de las fuerzas de seguridad
 
-[Ético](####-ético)
+Ético
 
-[\# Investigación Forense Digital	](##-investigación-forense-digital)
+Investigación Forense Digital	
 
-[\#\# Planificación	](###-planificación)
+Planificación
 
-[\#\# Comparación de herramientas	](###-comparación-de-herramientas)
+Comparación de herramientas	
 
-[\#\# Funcionamiento del sistema operativo](###-funcionamiento-del-sistema-operativo)
+Funcionamiento del sistema operativo
 
-[\#\# HashMyFiles	18](###-hashmyfiles)
+HashMyFiles	
 
-[\# Narcos 1	21](##-narcos-1)
+Narcos 1	
 
-[\#\# Primeras Imágenes de drogas	21](###-primeras-imágenes-de-drogas)
+Primeras Imágenes de drogas	
 
-[\#\# Mapas	23](###-mapas)
+Mapas	
 
-[\#\# Billete	26](###-billete)
+Billete	
 
-[\#\# Búsqueda de drogas	27](###-búsqueda-de-drogas)
+Búsqueda de drogas	
 
-[\#\# Historial	28](###-historial)
+Historial
 
-[\# Narcos 2	33](##-narcos-2)
+Narcos 2
 
-[\#\# Billete	33](###-billete-1)
+Billete	
 
-[\#\# Excel de clientes	35](###-excel-de-clientes)
+Excel de clientes
 
-[\#\# Programa de ocultación de secretos	36](###-programa-de-ocultación-de-secretos)
+Programa de ocultación de secretos	
 
-[\#\# Imagen de localización de drogas	39](###-imagen-de-localización-de-drogas)
+Imagen de localización de drogas	
 
-[\#\# Posibles métodos de ocultación de drogas	40](###-posibles-métodos-de-ocultación-de-drogas)
+Posibles métodos de ocultación de drogas
 
-[\#\# Imágenes de calle	41](###-imágenes-de-calle)
+Imágenes de calle
 
-[\#\# Contact Card	43](###-contact-card)
+Contact Card
 
-[\# Narcos 3	45](##-narcos-3)
+Narcos 3	
 
-[\#\# Imagen de grabación	46](###-imagen-de-grabación)
+Imagen de grabación	
 
-[\#\# Búsquedas de internet sospechosas	46](###-búsquedas-de-internet-sospechosas)
+Búsquedas de internet sospechosas	
 
-[\#\# Herramienta sospechosa en descargas	49](###-herramienta-sospechosa-en-descargas)
+[\#\# Herramienta sospechosa en descargas	
 
-[\#\# Quasar.v.1.3.0.0	50](###-quasar.v.1.3.0.0)
+Quasar.v.1.3.0.0	
 
-[\#\# BNE	52](###-bne)
+BNE	
 
-[\#\# Intento de descifrar secreto	53](###-intento-de-descifrar-secreto)
+Intento de descifrar secreto	
 
-[\#\# Método de comunicación alternativo	54](###-método-de-comunicación-alternativo)
+Método de comunicación alternativo	
 
-[\# Conclusión	55](##-conclusión)
+Conclusión	
 
-[\# TEST PLAN	58](##-test-plan)
+TEST PLAN	
 
-[\#\# Pasos para Test plan eficiente	58](###-pasos-para-test-plan-eficiente)
+Pasos para Test plan eficiente	
 
-[\#\# Poner los pasos en práctica	59](###-poner-los-pasos-en-práctica)
+Poner los pasos en práctica	
 
-[\#\# Diagrama	60](###-diagrama)
+Diagrama	
 
-[\#\# Buenas prácticas	61](###-buenas-prácticas)
+Buenas prácticas	
 
-[\#\#\# Prácticas para toda investigación	61](####-prácticas-para-toda-investigación)
+Prácticas para toda investigación	
 
-[\#\#\# Prácticas para este caso específico	61](####-prácticas-para-este-caso-específico)
+Prácticas para este caso específico	
 
-[\# Evaluación crítica personal	63](##-evaluación-crítica-personal)
+Evaluación crítica personal	
 
-[\# Bibliografía	64](##-bibliografía)  
+Bibliografía	
  
  
 [GitHub: Ch4mbi](https://github.com/Ch4mbi)
