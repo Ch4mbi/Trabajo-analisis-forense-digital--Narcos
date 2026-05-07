@@ -8,12 +8,9 @@ Este proyecto recoge el trabajo de investigación y aplicación práctica del an
 El trabajo combina teoría (Fases del proceso forense, normativa, ética, herramientas) con una investigación práctica sobre un caso simulado en el que se analizan varios ordenadores de sospechosos (Steve, John y Jane) vinculados con tráfico de drogas, buscando evidencias digitales para comprender qué ha pasado.
 
 ## Repositorio 
-/
-├── README.md
-
-├── Analisis_Forense_Digital.md : Trabajo completo
-
-└── img/ :Capturas y evidencias del análisis
+- README.md
+- Analisis_Forense_Digital.md : Trabajo completo
+- img/ :Capturas y evidencias del análisis
 
 
 ## Contenido
