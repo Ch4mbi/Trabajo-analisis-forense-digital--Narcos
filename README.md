@@ -1,7 +1,8 @@
 # Analisis forense digital
 Investigación práctica de análisis forense digital aplicada a un caso simulado de tráfico de drogas.
 Periodo: 19/9/2024 - 23/1/2025
-Autor: Ch4mbi
+
+[Autor: Ch4mbi](https://github.com/Ch4mbi)
 
 ## Descripción
 Este proyecto recoge el trabajo de investigación y aplicación práctica del análisis forense digital, una rama de la ciberseguridad centrada en la recuperación y análisis de evidencias digitales en dispositivos electrónicos tras un ataque informático o un crimen.
