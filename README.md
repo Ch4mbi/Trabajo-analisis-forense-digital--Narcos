@@ -10,7 +10,7 @@ El trabajo combina teoría (Fases del proceso forense, normativa, ética, herram
 
 ## Repositorio 
 - README.md
-- Analisis_Forense_Digital.md : Trabajo completo
+- Analisis Forense Digital.md : Trabajo completo
 - img/ :Capturas y evidencias del análisis
 
 
