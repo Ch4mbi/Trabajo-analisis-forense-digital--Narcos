@@ -165,7 +165,7 @@ Esta metodología establece directrices para la identificación, adquisición y 
 
   Debido a que la información se almacena en dígitos, los cuales representan diferentes tipos de archivos, hay unos aspectos principales a tener en cuenta en la investigación.
 
-  - Ordenadores: La evidencia digital se suele encontrar en el disco duro, USB, discos duros externos, …  
+  - Ordenadores: La evidencia digital se suele encontrar en el disco duro, USB, discos duros externos, etc.  
   - Internet: Los criminales los suelen usar para llevar a cabo actividades delictivas, por ende, los investigadores deben de estar a día de los avances tecnológicos   
   - Dispositivos móviles: Los dispositivos ya que cada día se usan más, pueden llevar un registro de las actividades llevadas a cabo por los criminales
 
@@ -185,7 +185,7 @@ Se establecen unas normas en esta norma para la adquisición de evidencias:
 
 - Asegurar la escena  
   - Confirmar las autoridades legales  
-  - Recopilar las contraseñas/códigos…  
+  - Recopilar las contraseñas/códigos, etc. 
   - Mantener la cadena de custodia en todo momento  
   - Preservar condiciones físicas optimas de la evidencia original (Para que no se deteriore)
 
@@ -195,7 +195,7 @@ También recoge normas para el posterior análisis de las evidencias:
   - Mantener el estado original de la evidencia original  
   - Aislar los dispositivos inalámbricos  
   - Tener y usar un programa de bloqueo de escritura  
-  - Las evidencias digitales se deben analizar como evidencias físicas(Huellas, ADN,…)
+  - Las evidencias digitales se deben analizar como evidencias físicas(Huellas, ADN,etc.)
 
 (Martínez, 2024)  
 Esta “metodología” tiene varios principios:
@@ -249,7 +249,7 @@ Por lo general, los centros de seguridad de varios países, a la hora de llevar 
 También, antes de llevar a cabo una investigación, se deben tener en cuenta algunos posibles problemas legales o éticos que se pueden llegar a producir si no se tienen en cuenta antes de llevar a cabo una investigación. Al mismo tiempo, estas verificaciones previas de los requisitos legales y éticos ayudan a la veracidad de las evidencias o al caso en general.
 
 - Dependiendo del país del que venga el acusado o donde se haga la investigación, se deben respetar las regulaciones legales que haya en dicho país, ya que en diferentes países puede haber diferentes regulaciones legales respecto a la privacidad de las personas. En estos casos, lo mejor sería asegurarnos y establecer límites para evitar incumplir las leyes de otros países de la privacidad, u obteniendo permisos legales necesarios para llevar a cabo la investigación si se puede.  
-  Como en España , por ejemplo, el reglamento general de la protección de datos(Dependiendo del caso si es individual o de una empresa), el cual define qué es un dato personal, también habla sobre los derechos de los individuos(derecho al acceso, oposición[Si se niegan a dar los datos],corrección,…), y también habla del tratamiento de los datos en si(Usar los datos de manera justa, se deben recoger solo los datos necesarios para el tratamiento, confidencialidad,…)  
+  Como en España , por ejemplo, el reglamento general de la protección de datos(Dependiendo del caso si es individual o de una empresa), el cual define qué es un dato personal, también habla sobre los derechos de los individuos(derecho al acceso, oposición[Si se niegan a dar los datos],corrección,etc.), y también habla del tratamiento de los datos en si(Usar los datos de manera justa, se deben recoger solo los datos necesarios para el tratamiento, confidencialidad,etc.)  
   (europea, 2016)
 
 - Aun así, también, respecto a los puntos éticos de la investigación, lo suyo sería:  
@@ -292,7 +292,7 @@ Al mismo tiempo, un proceso de análisis forense lleva una serie de pasos a segu
 
 Para esta investigación de Narcos , se van a usar diferentes herramientas como:
 
-- Autopsy: Aplicación que sirve para el análisis de un disco, ya sea , imágenes, historial, descargas,…  
+- Autopsy: Aplicación que sirve para el análisis de un disco, ya sea , imágenes, historial, descargas, etc.
 - FTK imager: Aplicación  usada para analizar el contenido de un dispositivo de manera organizada y por carpetas de manera más interna  
 - Volatility: Aplicación que sirve para hacer un análisis de la memoria volátil de un dispositivo  
 - HashMyFiles: Aplicación que genera uncódigo único en textos o archivos  
@@ -350,7 +350,7 @@ Comparación de herramientas de análisis forense(Fase de análisis):
 
 Todos los sistemas operativos tienen una lista limitada de sistemas de archivos compatibles. En este primer caso, va a analizar este tipo de estructura de Windows ya que este análisis forense se  enfoca en dispositivos lo que parece ser dispositivos windows:
 
-- NTFS(New Technology File System ): Introducido en Windows NT, hoy en día es el sistema de archivos más común. NFTS es en varios puntos mejor que FAT, dando diferentes funciones como: control de acceso, compresión de archivos,…También usa estructuras de datos específicas para aprovechar el almacenamiento:  
+- NTFS(New Technology File System ): Introducido en Windows NT, hoy en día es el sistema de archivos más común. NFTS es en varios puntos mejor que FAT, dando diferentes funciones como: control de acceso, compresión de archivos,etc. También usa estructuras de datos específicas para aprovechar el almacenamiento:  
   - *$Boot*: Está presente en el proceso de arranque  
   - *$MFT*: Tiene una entrada para todos los ficheros, los cuales pueden tener cualquier tipo de información, del sistema. Si el archivo es demasiado grande, NTFS crea clústeres fuera de la MFT, y punteros a las ubicaciones de dichos clústeres.
 
@@ -392,7 +392,7 @@ El registro de Windows se divide en 4 hives de sistema y 2 de usuario.
   - NTUSER.DAT: Contiene las configuraciones del usuario  
   - USRCLASSDAT:Su importancia está en las shellbags(Almacenan información sobre las carpetas que un usuario ha abierto en el explorador de archivos)
 
-Los eventos de Windows suelen incluir mensajes de errores, de aplicaciones, del sistema, …Siendo útil para solucionar problemas o al menos para tener constancia de ellos. En sistemas posteriores a Windows Vista/7/2008 , los eventos quedan almacenados en ficheros EVT.  
+Los eventos de Windows suelen incluir mensajes de errores, de aplicaciones, del sistema, etc. Siendo útil para solucionar problemas o al menos para tener constancia de ellos. En sistemas posteriores a Windows Vista/7/2008 , los eventos quedan almacenados en ficheros EVT.  
 (Martínez, 2024)
 
 ## HashMyFiles 
