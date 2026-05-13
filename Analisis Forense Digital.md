@@ -1,7 +1,7 @@
 
 [GitHub: Ch4mbi](https://github.com/Ch4mbi)
 
-# Análisis Forense y respuesta ante incidentes
+# 1. Análisis Forense y respuesta ante incidentes
 
 El puesto de forense digital es una de las diversas ramas que forman parte de la ciberseguridad. Los que trabajan en este ámbito se dedican a la investigación tras un ataque o investigar crímenes en los que haya involucrado algún dispositivo electrónico (Móvil, PC, etc). A pesar de que sea una rama de la ciberseguridad, más bien se centra en analizar los equipos tras un ataque o crimen. Los que se encargan de mitigar el ataque y de eliminarlo o de reducir su impacto final están más enfocados a la respuesta ante incidentes en tiempo real mientras que los forenses digitales se dedican a analizarlo tras que haya sucedido. Se dedican a recuperar equipos, archivos, hardware, etc., y a analizarlos y a realizar informes de los afectados para un uso posterior.  Lo cual  puede ser de utilidad en diversas situaciones judiciales ,por ejemplo, en la obtención de evidencias clave en un delito digital(Evidencia digital). Los forenses digitales se centran en descubrir:
 
@@ -37,7 +37,7 @@ Estos conocimientos del ataque ayudan a conocer la naturaleza de un ataque infor
 
 Estos puntos tienen similitudes con la respuesta ante incidentes debido a que ambos deben prever futuros ataques y establecer medidas preventivas (Siempre bajo el contexto adecuado). Los forenses digitales llevan a cabo una serie de fases o procedimientos a la hora de ponerse a trabajar en un análisis forense de un dispositivo. 
 
-## Fases de proceso de análisis forense 
+## 1.2. Fases de proceso de análisis forense 
 
 Visto a simple vista, el proceso de análisis que lleva a cabo un forense digital suele tener los mismos pasos en todas las situaciones. Se puede decir que es hasta un proceso repetitivo, pero cuando se profundiza en cada paso, se entiende que cada paso es más profundo de lo que aparenta. Esto es una metodología básica que se debe seguir, pudiéndose alterar si la situación lo requiere
 
@@ -80,9 +80,9 @@ A la hora de analizar un equipo atacado, infectado, que haya sido usado para alg
 
 Al llevar a cabo una investigación forense en un dispositivo electrónico hay ciertos puntos a tener en cuenta que pueden ser beneficiosos o perjudiciales a la hora de llevar a cabo desde un punto ético o legal.
 
-## Análisis Forense Digital 
+## 1.3. Análisis Forense Digital 
 
-### Ventajas y desventajas 
+### 1.3.1. Ventajas y desventajas 
 
 - Ventajas: Son las características de la investigación que ayudan a la obtención de evidencias, facilitando el proceso. Esto engloba lo útil que es llevar a cabo una investigación forense digital.
 
@@ -111,7 +111,7 @@ Sin embargo, hay casos en los que no es rentable hacer una investigación comple
 Una aclaración es que los puntos de vista pueden variar debido al tiempo que se le ha dado a un investigador forense digital para analizar, obtener evidencias y realizar informes que ayuden en una investigación.  
 Para concluir esta parte, las ventajas son una de las mayores virtudes de este tipo de investigación gracias a la facilidad para recuperar o conseguir información de crímenes o caos juridiciales.
 
-## Directrices de las fuerzas de seguridad  
+## 1.4. Directrices de las fuerzas de seguridad  
 
 En las investigaciones/análisis forenses digitales, se suelen aplicar ciertas directrices que vendrían siendo los procedimientos o protocolos que se deben llevar a cabo para garantizar la veracidad de las pruebas en casos judiciales, por ejemplo. Estos procedimientos se llevan a cabo para, aparte de mantener la veracidad de las pruebas, cumplir con los principios éticos y legales. Algunas directrices que se suelen aplicar son:
 
@@ -244,7 +244,7 @@ Por lo general, los centros de seguridad de varios países, a la hora de llevar 
 - Integridad de la evidencia: Usar un hash para el volcado de memoria es una buena práctica a la hora de llevar a cabo una investigación , al principio y al final, para así poder saber si el volcado de memoria es diferente respecto al principio, y por ende, que haya sido alterada.  
 - Usar herramientas correctas y legales: Uso de FTK Imager  ,Autopsy, o volatility para llevar a cabo los análisis
 
-### Ético 
+### 1.4.1. Ético 
 
 También, antes de llevar a cabo una investigación, se deben tener en cuenta algunos posibles problemas legales o éticos que se pueden llegar a producir si no se tienen en cuenta antes de llevar a cabo una investigación. Al mismo tiempo, estas verificaciones previas de los requisitos legales y éticos ayudan a la veracidad de las evidencias o al caso en general.
 
@@ -262,7 +262,7 @@ También, antes de llevar a cabo una investigación, se deben tener en cuenta al
 
 [GitHub: Ch4mbi](https://github.com/Ch4mbi)
 
-# Investigación Forense Digital 
+# 2. Investigación Forense Digital 
 
 En el escenario que nos ha dado, los policías han arrestado en el aeropuerto de Wellington del vuelo entre Nueva Zelanda y Brisbane a dos personas. Los arrestados eran John (Narcos-2) y Jane (Narcos-3) ya que se sospecha de que han llevado a cabo algún tipo de actividad ilegal, como narcotráfico. En ambas maletas se ha encontrado un ordenador portátil y en la de John se ha encontrado droga. Jane confesó que debían dejar la maleta en la biblioteca de Eastbourne(Wellington), y John lo corroboró.Una vez ahí, solo encontraron armas, drogas y un portátil. El informe consiste en relacionar a los detenidos con el sospechoso Steve y las actividades que se han intentado llevar a cabo o que se harán, al menos establecer una relación entre Steve y John.   
 Yo debo entender y hacer una conclusión de:
@@ -288,7 +288,7 @@ Al mismo tiempo, un proceso de análisis forense lleva una serie de pasos a segu
 4. Análisis  
 5. Documentación
 
-## Planificación 
+## 2.1. Planificación 
 
 Para esta investigación de Narcos , se van a usar diferentes herramientas como:
 
@@ -329,7 +329,7 @@ Hay que tener en cuenta los dispositivos con los que se va a trabajar en la inve
 
 Tras haber analizado con FTK Imager los 3 dispositivos, se ha llegado a una conclusión respecto a cómo se organizan internamente, esto parece ser un sistema de carpetas dentro de otras para llegar a archivos importantes. Y según las rutas usadas para navegar entre carpetas entre los 3 dispositivos individualmente, se puede intuir que los 3 son sistemas Windows.
 
-## Comparación de herramientas  
+## 2.2. Comparación de herramientas  
 
 Comparación de herramientas de análisis forense(Fase de análisis):
 
@@ -346,7 +346,7 @@ Comparación de herramientas de análisis forense(Fase de análisis):
 - Su función principal es la adquisición de evidencias,ya que no muestra todas las imagen(por ejemplo) del disco, pero se puede usar para un análisis inicial y contrastar información |
 
 
-## Funcionamiento del sistema operativo  
+## 2.3. Funcionamiento del sistema operativo  
 
 Todos los sistemas operativos tienen una lista limitada de sistemas de archivos compatibles. En este primer caso, va a analizar este tipo de estructura de Windows ya que este análisis forense se  enfoca en dispositivos lo que parece ser dispositivos windows:
 
@@ -395,7 +395,7 @@ El registro de Windows se divide en 4 hives de sistema y 2 de usuario.
 Los eventos de Windows suelen incluir mensajes de errores, de aplicaciones, del sistema, etc. Siendo útil para solucionar problemas o al menos para tener constancia de ellos. En sistemas posteriores a Windows Vista/7/2008 , los eventos quedan almacenados en ficheros EVT.  
 (Martínez, 2024)
 
-## HashMyFiles 
+## 2.4. HashMyFiles 
 
 Narcos-1  
 Usando HashMyFiles, se pueden sacar los Hashes MD5 de los archivos de Narco_1:  
@@ -434,7 +434,7 @@ Después se selecciona la carpeta de Narcos_1
 ![img10](img/img10.png)
 ![img11](img/img11.png)
 
-# Escenario
+# 3. Escenario
 
 "Due to intelligence provided by the Australian government, two passengers were intercepted by
 Customs upon arriving in Wellington, New Zealand from Brisbane. The Intel stated that Jane
@@ -461,12 +461,12 @@ located in the same location or even be present."
 https://digitalcorpora.s3.amazonaws.com/s3_browser.html#corpora/scenarios/2019-narcos/
 
 
-# Narcos 1 
+# 4. Narcos 1 
 
 Primero se va a analizar la carpeta de Narcos-1, la que contiene información de Steve.Se sabe el nombre por las rutas de acceso a los diferentes archivos que aparecen en autopsy. El dispositivo parece ser un sistema windows.  
 Usando FTK Imager, e investigando la carpeta de Narcos-1.001, en la sección de Basic Data Partition,en la sección de Noname, en la carpeta root, en la carpeta $Recycle.Bin , en la subcarpeta S-1-5-21, se han encontrado una serie de imágenes jpg con contenido de drogas.
 
-## Primeras Imágenes de drogas 
+## 4.1. Primeras Imágenes de drogas 
 
 Analizando la organización de las carpetas, por medio de FTK Imager, se puede deducir que se trata de un sistema windows, aparte de las carpetas del sistema operativo de windows, se ven carpetas relevantes como $Recycle.Bin.  
 ![img12](img/img12.png)
@@ -475,7 +475,7 @@ Analizando la organización de las carpetas, por medio de FTK Imager, se puede d
 Esta imagen está junto con la otra imagen de drogas de Steve. En ella se pueden ver chaquetas de una pandilla callejera criminal de Nueva Zelanda.  
 Estas imágenes se han encontrado en la carpeta $Recycle.Bin del ordenador de Steve, siendo esta carpeta usadas para , en este caso, encontrar archivos que el dueño del ordenador ha intentado eliminar, ayudando en la investigación debido a que nos indica que ha intentado deshacerse de algo que lo podría incriminar.Esto , y el análisis por medio de FTK Imager, de la visualización de todas las carpetas, se puede lograr ver que muchas carpetas se encuentran dentro de otras carpetas,, por lo que se puede deducir que esa es la forma en la que se organiza este dispositivo(Al igual que los otros 3)
 
-## Mapas 
+## 4.2. Mapas 
 
 Usando autopsy y analizando Narcos -1.001, en la sección de imágenes se pueden ver imágenes de google maps de la zona de wellington:  
 ![img15](img/img15.png) 
@@ -495,19 +495,19 @@ Este se ve en Ftk imager como methodpoff , indicando una posible ruta de escape 
 ![img21](img/img21.png)  
 El hecho de que ambas imágenes se puedan encontrar en ambas herramientas ayuda al contraste de imágenes ,ya que con Autopsy, solo se pueden ver, y es más difícil saber con exactitud dónde está cada imagen. Por ejemplo, también, en cierta manera, el hecho de que no esté en la carpeta de descargas nos puede dar a entender que el documento fue creado y guardado por Steve.
 
-## Billete 
+## 4.3. Billete 
 
 También se pueden encontrar imágenes de un vuelo del 16 de febrero habiendo sido creadas el día 2. Esto da a entender que ha habido un tiempo de preparación y que el lapso de sucesos ha ocurrido entre finales de enero y principios de febrero de 2019.  
 ![img22](img/img22.png) 
 El billete no tiene porqué haber sido de Steve necesariamente, los que han cogido un avión eran John F y Jane E
 
-## Búsqueda de drogas 
+## 4.4. Búsqueda de drogas 
 
 También en la sección de webp, se pueden encontrar numerosas imágenes de compra de drogas en tiendas digitales con fecha el 2 de febrero  
 ![img23](img/img23.png)  
 ![img24](img/img24.png)
 
-## Historial 
+## 4.5. Historial 
 
 Usando también autopsy, se ha encontrado también un historial de búsqueda que son sospechosas, como: Crystal meth, best places to trade drugs  
 ![img25](img/img25.png)
@@ -533,7 +533,7 @@ Como se ve, en la imagen , el archivo seleccionado y los que están arriba, tien
 ![img32](img/img32.png) 
 Como se ve , estas carpetas que contienen estas imágenes, están en la $Recycle.Bin, por lo que podrían haber sido puestas ahí para distraer o para incriminar a otra persona, o que hayan intentado eliminarlas.Se puede suponer que son falsas por el link del que se descargaron, ya que los 3 son diferentes. Aun así, es posible que se haya usado algún método especial.Se sospecharía más si se hubieran descargado de la misma página. Es posible que no sean imágenes de John , sino de la propia banda de Steve todas.
 
-# Narcos 2 
+# 5. Narcos 2 
 
 Ahora se va a analizar la carpeta de Narcos-2, que corresponde a John F.
 
@@ -541,7 +541,7 @@ Aprender encriptación
 Se encuentra una búsqueda para aprender a encriptar por medio de youtube. Por lo que lo podría haber usado para aprender a encriptar archivos o documentos.  
 ![img33](img/img33.png)
 
-## Billete 
+## 5.1. Billete 
 
 También se encuentra el billete de vuelo que previamente poseía Steve.  
 ![img34](img/img34.png) 
@@ -551,7 +551,7 @@ También hay una confirmación de envío de paquete de 20 kg, a la dirección de
 En este equipo de John, se han encontrado archivos que llevan el nombre de: Jane´s Kids, siendo esta una imagen. Esto puede dar a entender que John y Jane tienen una relación más cercana, aparte de suponerse por haber sido interceptados los 2 en el aeropuerto.  
 ![img36](img/img36.png)
 
-## Excel de clientes 
+## 5.2. Excel de clientes 
 
 Se encuentra también un excel.  
 ![img37](img/img37.png) 
@@ -560,7 +560,7 @@ Se confirma que el destino del envío de paquete de 15 kg(de drogas) es a Jake. 
 Todo esto se puede encontrar siguiendo esta ruta en FTK:  Basic data partition → Users → JohnF → Documents →Business  
 Cabe destacar que estos archivos no se han podido ver directamente en FTK, por lo que se han exportado 
 
-## Programa de ocultación de secretos 
+## 5.3. Programa de ocultación de secretos 
 
 Se confirma el uso de un programa por parte de alguien para ocultar archivos dentro de archivos “inocentes”.La fecha sigue coincidiendo con el lapso de tiempo entre finales de enero y principios de febrero de 2019.  
 ![img38](img/img38.png)  
@@ -577,12 +577,12 @@ Y se encuentra un supuesto secreto que ha sido posiblemente encriptado según au
 Se pueden encontrar imágenes creadas en el año 2018, pero que se ha accedido a ellas y modificado de alguna manera.  
 ![img44](img/img44.png)
 
-## Imagen de localización de drogas 
+## 5.4. Imagen de localización de drogas 
 
 Y una imagen de donde poner las drogas, pero podría ser falsa porque el sitio habitual es alrededor de la biblioteca de Wellington  
 ![img45](img/img45.png)
 
-## Posibles métodos de ocultación de drogas 
+## 5.5. Posibles métodos de ocultación de drogas 
 
 Se han visto también diversos alimentos y objetos cortados a la mitad con hueco para esconder cosas.  
 ![img46](img/img46.png)  
@@ -590,7 +590,7 @@ O directamente la posible mercancía en sí
 ![img47](img/img47.png)  
 Y también imágenes de una maleta abierta, posiblemente la que usa John para transportar la metanfetamina.
 
-## Imágenes de calle 
+## 5.6. Imágenes de calle 
 
 Se han visto diversas imágenes de una misma calle, y esta apunta a un grupo de casas específico o al vehículo blanco, los cubos de basura, o incluso unas plantas o la carretera de la zona:  
 ![img48](img/img48.png) 
@@ -603,14 +603,14 @@ Se vuelve a encontrar en Web Downloads, la presencia de discord y de una aplicac
 ![img52](img/img52.png)
 Y usando FTK Imager y siguiendo la ruta de las imágenes, Basic Data Partition(4) → root → Users→ JohnF → Documents → Memes. Los Drug Memes 5 y 6 están ahí por lo que podrían haber sido usados para la ocultación de información.
 
-## Contact Card 
+## 5.7. Contact Card 
 
 Se ha encontrado también un zip llamado Contact card, que parece ser un ejecutable, y otro que se llama Attachments-Important,crucial to our method.zip.Y al ser zip, podrian requerir de una contraseña para descifrarlos.  
 ![img53](img/img53.png)  
 Los zip de Contact card y de Attachments mencionados anteriormente se han descargado desde discord:  
 ![img54](img/img54.png)
 
-# Narcos 3 
+# 6. Narcos 3 
 
 Este ordenador pertenecía a Jane. Parece ser también un dispositivo windows.  
 Advertencias de drogas en colegios  
@@ -619,13 +619,13 @@ Lo primero que se ha encontrado, es la presencia de imágenes que advierten sobr
 
 Se encuentran también numerosas fotos de cristal y de polvos y de metanfetamina, pero que algunas de estas parecen ser de internet por los ángulos y la alta calidad de las imágenes.
 
-## Imagen de grabación 
+## 6.1. Imagen de grabación 
 
 Una imagen que me parece importante, es esta:  
 ![img56](img/img56.png) 
 Que parecen ser imágenes de una videollamada , o de un hackeo de un teléfono a la cámara del mismo.
 
-## Búsquedas de internet sospechosas 
+## 6.2. Búsquedas de internet sospechosas 
 
 Una búsqueda de internet que ha hecho, parece bastante sospechosa:  
 ![img57](img/img57.png) 
@@ -640,7 +640,7 @@ Y se encuentra esa foto, pero con extras , con nombre de background
 ![img61](img/img61.png) 
 Se puede llegar aquí por medio de la siguiente ruta:Basic Data Partition → Root → Users → JaneE → Pictures. Esto nos puede cambiar el punto de vista de las motivaciones de Jane, quitando como compradora, y el hecho de que no conocía a Jhon en un primer lugar, puede ser que Jane sea una policía encubierta en busca de un narcotraficante , Jhon.
 
-## Herramienta sospechosa en descargas 
+## 6.3. Herramienta sospechosa en descargas 
 
 Se ha encontrado una herramienta para controlar de manera remota algún dispositivo:  
 ![img62](img/img62.png)   
@@ -648,7 +648,7 @@ Se ha encontrado una herramienta para controlar de manera remota algún disposit
 Y aquí se puede ver como lo ha ejecutado  
 ![img64](img/img64.png) 
 
-## Quasar.v.1.3.0.0 
+## 6.4. Quasar.v.1.3.0.0 
 
 En FTK Imager, se puede ver , junto con el ejecutable en el zip de Contact Card, el programa Quasar v.1.3.0.0. Y parece ser que Jane lo ha usado.  
 ![img65](img/img65.png)   
@@ -675,14 +675,14 @@ Cabe la posibilidad de que el archivo Contact card.exe fuera el disfraz que Jane
 ![img72](img/img72.png)  
 Se ve como john parece decirle a Jane que viajarán como una pareja de viaje a nueva zelanda.
 
-## BNE 
+## 6.5. BNE 
 
 No se consigue encontrar en el ordenador de John algún archivo con nombre BNE, aun así, en el ordenador de Steve,se encuentra la imagen que John descargó, por lo que John parece haberla enviado y haberla borrado de su ordenador.
 
 ![img73](img/img73.png)   
 Se puede llegar a ella siguiendo esta ruta: Basic Data Partition → Root → Users → Steve → Downloads → Misc → BNE.
 
-## Intento de descifrar secreto 
+## 6.6. Intento de descifrar secreto 
 
 El secreto de la imagen se puede descifrar usando una aplicación de esteganografía, puede ser de elección propia, en este caso se ha usado una llamada [OpenStego](https://www.openstego.com/). La contraseña para la imagen BNE es: Elchapo2. De hecho, OpenStego es una de las imágenes de aplicaciones usadas por John en su ordenador.Siendo la interfaz prácticamente la misma.  
 ![img74](img/img74.png) 
@@ -690,7 +690,7 @@ Comparando la imagen de John, el número de caracteres de contraseña que puso e
 Sin embargo, parece que está corrupto el mensaje:  
 ![img75](img/img75.png) 
 
-## Método de comunicación alternativo
+## 6.7. Método de comunicación alternativo
 
 Se ha encontrado un sobre con lo que parece cristal dentro, que contiene información de contacto, un gmail, y usan una app llamada Wickr me, que es una app de mensaje directo  privado que “destruye” los mensajes enviados previamente.  
 ![img76](img/img76.png) 
@@ -701,7 +701,7 @@ Se puede ver un archivo de Jane que se llama Contact_card.
 Aunque en este caso es solo un icono, lo que más importa es el ejecutable.  
 ![img78](img/img78.png) 
 
-# Conclusión 
+# 7. Conclusión 
 
 En un principio, se pedía que se encontrara una relación entre John y Steve. Pero se analizó también el dispositivo de Jane por si era cómplice, y , de hecho, ha ayudado a la investigación en gran medida.
 
@@ -716,11 +716,11 @@ Un punto a recalcar es la veracidad de las imágenes de los hijos de Jane, ya qu
 
 Tras un analisis de todo lo recopilado la hipótesis mas fuerte es que John es el vendedor de drogas y Jane es una policia encubierta o una persona que tiene motivos de venganza contra John. Steve puede ser otro policia encubierto o un drogadicto auténtico pero colaborativo con las autoridades. Jane y Steve se pusieron en contacto con John para encontrarse y comprarle drogas. Jane incitó a John a descargar varios archivos, resultando que la contact card tenga el RAT Quasar con el que Jane espia a John. Pero Jane y John fueron arrestados en el aereopuerto. John negandose a colaborar y Jane parece insistente en ir a cierto sitio, la biblioteca.
 
-# TEST PLAN 
+# 8. TEST PLAN 
 
 Antes de nada, hay que tener en cuenta ciertos derechos a la privacidad, que en estos casos son muy fácilmente infringidos por los investigadores ya que están buscando en el dispositivo de otra persona y podrían infringir estos derechos llevando a problemas legales por lo que en la investigación forense no se debe investigar lo que pueda llevar a otros casos, solo lo prioritario. En esta situación, en el ordenador de Steve, se deben buscar imágenes, mensajes, búsquedas de internet, descargas, etc., que relacionen a Steve con el tráfico de drogas. El uso de cualquier otra imagen que no sea relevante para la investigación en el informe o como evidencia implicaría problemas legales, incluso si el investigado es un criminal. Siendo así que existen leyes de protección de datos personales, y que, por lo general, se debería minimizar la exposición de la información personal del criminal ,no relevante, en el informe.
 
-## Pasos para Test plan eficiente 
+## 8.1. Pasos para Test plan eficiente 
 
 Para llevar a cabo un test plan eficiente, hay que tener una planificación previa antes de llevar a cabo la investigación:
 
@@ -739,7 +739,7 @@ Para llevar a cabo un test plan efectivo, hay que tener en cuenta unos requisito
 
 (Martínez, 2024)
 
-## Poner los pasos en práctica 
+## 8.2. Poner los pasos en práctica 
 
 El primer punto a tener en cuenta es la formación de equipo de profesionales para llevar a cabo el caso. Lo ideal sería que se formen subgrupos de 2-3 personas enfocadas en el  mismo ámbito de la investigación, dando como resultado un grupo de unas 8-9 personas, para que en la investigación puedan contrastar conclusiones, alternar el trabajo u organizarlo de manera efectiva ya sea que un grupo se encargue de la recolección de las evidencias físicas y que se encargue del volcado de memoria y que se asegure de mantener intactas las evidencias o recopilando la información mientras otro busca evidencias en la memoria usando las herramientas respectivas.  
 En el caso dado ,se espera encontrar cualquier tipo de evidencia(Ya sean imágenes , mensajes, o alguna otra pista que conduzca a una evidencia válida) que incrimine a Steve, el dueño del ordenador encontrado.
@@ -755,13 +755,13 @@ En el caso dado ,se espera encontrar cualquier tipo de evidencia(Ya sean imágen
 
 Una vez terminado se debe revisar que la memoria no ha sido alterada, usando hashmyfiles, si ha cambiado algún hash, significa que ha habido algún cambio en la memoria y se debería de “volver a empezar” (ya se saben donde hay evidencias).
 
-## Diagrama 
+## 8.3. Diagrama 
 
 ![img79](img/img79.png) 
 
-## Buenas prácticas
+## 8.4. Buenas prácticas
 
-### Prácticas para toda investigación 
+### 8.4.1. Prácticas para toda investigación 
 
 Las prácticas básicas, y generales, para esta y cualquier investigación forense (en un contexto similar) serían:
 
@@ -769,7 +769,7 @@ Las prácticas básicas, y generales, para esta y cualquier investigación foren
 * Mantener la integridad de la memoria: Esto se puede hacer con herramientas como Hashmyfiles, que nos dan hashes que nos informarán si ha habido cambios de algún tipo en la memoria. Si la evidencia original se altera, cabe la posibilidad de que las rutas o procedimientos o incluso perder evidencias, ya que las imágenes que se toman durante la investigación no se pueden considerar como tal.  
 * Mantener el equipo de las evidencias intacto: Si a este equipo le ocurre cualquier alteración, las evidencias perderían credibilidad y no serían útiles en el caso, o no del todo al menos. No será necesario encenderlo ni conectarlo a ninguna red de internet debido a los riesgos que puede implicar
 
-### Prácticas para este caso específico 
+### 8.4.2. Prácticas para este caso específico 
 
 Ahora las recomendaciones para este caso específico:
 
@@ -800,7 +800,7 @@ El cumplimiento de las buenas practicas es una recomendación, en un primer luga
 
 El punto de usar buenas practicas en las investigaciones está en que ayudan a llevar cierto orden o saber lo que hacer, básicamente para evitar errores, o fallos inesperados. Esto también aplica a la veracidad de las pruebas y evidencias, si se aplican buenas prácticas, podemos asegurar, en cierta manera, la veracidad de estas y tener un punto de apoyo más en el caso. En este caso, el uso de buenas prácticas como en el mantener las evidencias originales intactas o tener menos riesgos a la hora de analiza respecto a los marcos legales o incluso los éticos ya que estos van bastante a la par , al menos bajo mi punto de vista. El no implementar las buenas prácticas, o implementarlas erróneamente puede llevar a problemas legales, como ya se mencionó, o las evidencias podrían perder veracidad al no llevar a cabo buenas prácticas.
 
-## Evaluación crítica personal 
+## 8.5. Evaluación crítica personal 
 
 Evaluación crítica personal de la investigación forense digital:
 
@@ -809,7 +809,7 @@ Evaluación crítica personal de la investigación forense digital:
 - Estar más abierto al uso de otras herramientas es esencial para mejorar la calidad del informe y de la investigación inicial, y junto a esto, haber pensado en varias posibilidades a la hora de establecer las herramientas habría ayudado a una mejor investigación desde un principio  
 - Se ha mencionado información en el informe que no es del todo relevante en la investigación, y que es más personal a pesar de no haber sacado captura de ellas
 
-# Bibliografía 
+# 9. Bibliografía 
 
 Brezinski, D. &. K., 2002. *RFC 3227.* [En línea]   
 Available at: https://www.rfc-editor.org/rfc/rfc3227#section-2  
