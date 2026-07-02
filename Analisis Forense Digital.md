@@ -335,16 +335,10 @@ Comparación de herramientas de análisis forense(Fase de análisis):
 
 | Autopsy | FTK Imager |
 | :---- | :---- |
-| 
-- Interfaz fácil de usar e intuitiva(desde la experiencia y desde mi punto de vista), ya que tiene diversas opciones para organizar las búsquedas, como una sección para buscar archivos por su nombre<br><br>
-- Es lento, por decirlo de una manera, tarda en analizar todo la memoria analizada un rato ya que es una herramienta que se especializa en los analisis detallados por lo que tarda más en analizar toda la información<br><br>
-- Muestra toda la información de los volcados de memoria<br><br>
-- No solo permite ver imágenes en “secciones” según la clase de imagen que sea, sino que también se pueden ver descargas de internet, cookies, sitios web visitados, etc. | 
-- Interfaz más extensa y compleja, dividiendo los archivos en más secciones separadas, y , por ende, se necesita saber dónde mirar en un primer lugar<br><br>
-- Es inmediato, una vez que se cargan las evidencias , ya se puede empezar a interactuar con ellas<br><br>
-- Las secciones de archivos ayudan a entender con qué clase de sistema operativo se está trabajando<br><br>
-- Su función principal es la adquisición de evidencias,ya que no muestra todas las imagen(por ejemplo) del disco, pero se puede usar para un análisis inicial y contrastar información |
-
+| Interfaz fácil de usar e intuitiva(desde la experiencia y desde mi punto de vista), ya que tiene diversas opciones para organizar las búsquedas, como una sección para buscar archivos por su nombre | Interfaz más extensa y compleja, dividiendo los archivos en más secciones separadas, y , por ende, se necesita saber dónde mirar en un primer lugar |
+| Es lento, por decirlo de alguna manera, tarda en analizar todo la memoria analizada un rato ya que es una herramienta que se especializa en los analisis detallados por lo que tarda más en analizar toda la información | Es inmediato, una vez que se cargan las evidencias , ya se puede empezar a interactuar con ellas |
+| Muestra toda la información de los volcados de memoria | Las secciones de archivos ayudan a entender con qué clase de sistema operativo se está trabajando |
+| No solo permite ver imágenes en “secciones” según la clase de imagen que sea, sino que también se pueden ver descargas de internet, cookies, sitios web visitados, etc. | Su función principal es la adquisición de evidencias,ya que no muestra todas las imagen(por ejemplo) del disco, pero se puede usar para un análisis inicial y contrastar información |
 
 ## 2.3. Funcionamiento del sistema operativo  
 
